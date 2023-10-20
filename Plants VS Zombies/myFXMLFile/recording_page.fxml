@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: translate;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectFinal.RecordingPageController">
+   <children>
+      <Polyline layoutX="64.0" layoutY="63.0" points="36.00000762939453, 175.40000915527344, -49.599998474121094, -41.40000534057617, 128.0, 9.800003051757812, 150.39999389648438, 37.0" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.13725490868091583" green="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.09019608050584793" green="0.6274510025978088" blue="0.8196078538894653" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.13725490868091583" green="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.09019608050584793" green="0.6274510025978088" blue="0.8196078538894653" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Polyline>
+      <Polyline fx:id="my_shape" layoutX="442.0" layoutY="70.0" points="99.60003662109375, -14.799999237060547, 194.800048828125, -42.79999923706055, 426.0, 169.1999969482422, 99.60003662109375, -14.799999237060547" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.6823529601097107" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.9961832061068702">
+                     <color>
+                        <Color red="0.8235294222831726" green="0.08627451211214066" blue="0.2078431397676468" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.8235294222831726" green="0.08627451211214066" blue="0.2078431397676468" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.6823529601097107" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.9961832061068702">
+                     <color>
+                        <Color red="0.8235294222831726" green="0.08627451211214066" blue="0.2078431397676468" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.8235294222831726" green="0.08627451211214066" blue="0.2078431397676468" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Polyline>
+      <Polyline layoutX="738.0" layoutY="516.0" points="102.0, -78.39996337890625, 153.2000732421875, -100.0, 112.4000244140625, 26.4000244140625, 76.4000244140625, 39.20001220703125" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.7921568751335144" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007633587786259542">
+                     <color>
+                        <Color red="1.0" green="0.7921568751335144" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.8117647171020508" green="0.09803921729326248" blue="0.09803921729326248" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.7921568751335144" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.9961832061068702">
+                     <color>
+                        <Color red="0.8235294222831726" green="0.08627451211214066" blue="0.2078431397676468" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.9961832061068702">
+                     <color>
+                        <Color red="0.09019608050584793" green="0.6274510025978088" blue="0.8196078538894653" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.9969465648854962">
+                     <color>
+                        <Color red="0.09019608050584793" green="0.6274510025978088" blue="0.8196078538894653" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.8117647171020508" green="0.09803921729326248" blue="0.09803921729326248" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Polyline>
+      <Polyline layoutX="92.0" layoutY="534.0" points="-22.399986267089844, -182.79998779296875, 44.600013732910156, -143.79998779296875, 71.19998168945312, -34.0, -44.800010681152344, 30.79998779296875" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color green="1.0" blue="0.6757925152778625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.09019608050584793" green="0.3490196168422699" blue="0.8196078538894653" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color green="1.0" blue="0.6757925152778625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.09019608050584793" green="0.3490196168422699" blue="0.8196078538894653" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Polyline>
+      <Polyline layoutX="360.0" layoutY="561.0" points="11.999969482421875, -114.60000610351562, 151.99996948242188, -128.19998168945312, 251.20001220703125, -0.199951171875, -64.00003051757812, -23.39996337890625" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.8941176533699036" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007633587786259542">
+                     <color>
+                        <Color red="1.0" green="0.8941176533699036" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.6196078658103943" green="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.8941176533699036" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.9938931297709924">
+                     <color>
+                        <Color red="0.6196078658103943" green="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.6196078658103943" green="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Polyline>
+      <AnchorPane layoutX="100.0" layoutY="100.0" prefHeight="400.0" prefWidth="700.0">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="700.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../myPicture/Background/BackGround.jpg" />
+               </image>
+            </ImageView>
+            <ListView fx:id="list_view" layoutX="142.0" layoutY="92.0" prefHeight="216.0" prefWidth="414.0" style="-fx-background-color: orange;" />
+            <Label fx:id="game_records_label" layoutX="273.0" layoutY="35.0" text="Game Records">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="back_to_main_menu_button_2" layoutX="276.0" layoutY="333.0" mnemonicParsing="false" onAction="#onClickBackToMainMenuButton2" style="-fx-background-color: orange;" text="Back to main menu">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

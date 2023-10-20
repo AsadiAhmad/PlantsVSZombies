@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectFinal.MenuBarController">
+   <children>
+      <AnchorPane layoutX="100.0" layoutY="75.0" prefHeight="450.0" prefWidth="700.0" style="-fx-background-color: linear-gradient(to right top, #0847b5, #17c191); -fx-background-radius: 3em;">
+         <children>
+            <ImageView fitHeight="450.0" fitWidth="700.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../myPicture/Background/MenuBackground.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="450.0" fitWidth="700.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../myPicture/Grave.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="exit_button" layoutX="311.0" layoutY="297.0" mnemonicParsing="false" onAction="#onClickExitButton" onMouseEntered="#onMouseEnteredExitButton" onMouseExited="#onMouseExitedExitButton" prefHeight="38.0" prefWidth="138.0" style="-fx-background-color: linear-gradient(to right top, #636e67, #425f44);" text="Exit" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="log_out_button" layoutX="311.0" layoutY="236.0" mnemonicParsing="false" onAction="#onClickLogOutButton" onMouseEntered="#onMouseEnteredLogOutButton" onMouseExited="#onMouseExitedLogOutButton" prefHeight="38.0" prefWidth="138.0" style="-fx-background-color: linear-gradient(to right top, #636e67, #425f44);" text="Log Out" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="records_button" layoutX="311.0" layoutY="173.0" mnemonicParsing="false" onAction="#onClickRecordsButton" onMouseEntered="#onMouseEnteredRecordsButton" onMouseExited="#onMouseExitedRecordsButton" prefHeight="38.0" prefWidth="138.0" style="-fx-background-color: linear-gradient(to right top, #636e67, #425f44);" text="Records" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="play_button" layoutX="311.0" layoutY="104.0" mnemonicParsing="false" onAction="#onClickPlayButton" onMouseEntered="#onMouseEnteredPlayButton" onMouseExited="#onMouseExitedPlayButton" prefHeight="38.0" prefWidth="138.0" style="-fx-background-color: linear-gradient(to right top, #636e67, #425f44);" text="Play" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <RadioButton fx:id="easy_radio_button" layoutX="140.0" layoutY="255.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="56.0" text="Easy" textFill="WHITE">
+               <toggleGroup>
+                  <ToggleGroup fx:id="Level" />
+               </toggleGroup>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="medium_radio_button" layoutX="140.0" layoutY="286.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="81.0" selected="true" text="Medium" textFill="WHITE" toggleGroup="$Level">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="extreme_radio_button" layoutX="153.0" layoutY="319.0" mnemonicParsing="false" text="extreme" textFill="WHITE" toggleGroup="$Level">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </RadioButton>
+            <ImageView fitHeight="161.0" fitWidth="120.0" layoutX="108.0" layoutY="-1.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../myPicture/SignBoard.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="137.0" layoutY="90.0" text="Welcome" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="user_name_label" alignment="CENTER" layoutX="117.0" layoutY="112.0" prefHeight="22.0" prefWidth="102.0" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="day_radio_button" layoutX="565.0" layoutY="216.0" mnemonicParsing="false" selected="true" text="Day" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="Time" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="night_radio_button" layoutX="560.0" layoutY="257.0" mnemonicParsing="false" text="Night" textFill="WHITE" toggleGroup="$Time">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </RadioButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="328.0" prefHeight="161.0" prefWidth="242.0" style="-fx-background-color: transparent;">
+         <children>
+            <ImageView fitHeight="162.0" fitWidth="206.0" layoutX="18.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../myPicture/PvZ.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="711.0" layoutY="210.0" prefHeight="272.0" prefWidth="164.0" style="-fx-background-color: transparent;">
+         <children>
+            <ImageView fitHeight="257.0" fitWidth="195.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../myPicture/Zombie.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="54.0" layoutY="310.0" prefHeight="171.0" prefWidth="137.0" style="-fx-background-color: transparent;">
+         <children>
+            <ImageView fitHeight="113.0" fitWidth="120.0" layoutX="5.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../myPicture/gif/SunflowerGif.gif" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="89.0" layoutY="386.0" prefHeight="171.0" prefWidth="164.0" style="-fx-background-color: transparent;">
+         <children>
+            <ImageView fitHeight="147.0" fitWidth="150.0" layoutX="5.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../myPicture/gif/RepeaterGif.gif" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
